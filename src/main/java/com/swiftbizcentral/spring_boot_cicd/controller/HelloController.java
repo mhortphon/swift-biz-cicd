@@ -9,4 +9,9 @@ public class HelloController {
     public String getMessage() {
         return "Hello Swift Biz Central.";
     }
+
+    @RequestMapping("/users")
+    public String getUsers() {
+        return "Users Meng Spring Boot";
+    }
 }
